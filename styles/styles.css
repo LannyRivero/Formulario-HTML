@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {  
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #2da061;       
+    background-image: radial-gradient(circle, #000000, transparent 1px); 
+    background-size: 20px 20px;
+    margin: 20px;
+    padding: 0;
+
+}
+
+form {
+    background-color: #fff;    
+    font-family: sans-serif;
+    text-align: center;
+    max-width:500px;
+    border-radius: 8px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+    
+    margin: 50px auto;
+    padding: 30px 20px;    
+}
+
+.form-container {
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.form-container label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form-container input,
+.form-container select,
+.form-container textarea {
+    border: 1px solid #777;
+    border-radius: 2px;
+    font-family: inherit;
+    padding: 10px;
+    display: block;
+    width: 95%;
+}
+
+.form-container input[type="radio"],
+.form-container input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+}
+
+button {
+    background-color: #05c46b;
+    background-image: radial-gradient(circle, #000000, transparent 1px); 
+    background-size: 20px 20px;
+    color: rgb(2, 2, 2);
+    font-weight: bold;
+    border: 1px solid #777;
+    font-family: inherit;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 21px;
+    display: block;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: #0a5f26;
+}
